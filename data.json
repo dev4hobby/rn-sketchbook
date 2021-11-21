@@ -1,0 +1,27 @@
+{
+  "tip": [{
+      "idx": 0,
+      "category": "Lifestyle",
+      "title": "Amazon Japan에서 Vinyl 상품정보를 Python으로 크롤링해서 DB에 넣어볼까?",
+      "image": "https://media.vlpt.us/images/d3fau1t/post/1a594c00-7621-48fb-b77d-b378e4f6a645/image.png?w=768",
+      "desc": "평소 LP를 수집하는 취미가 있는데 중고로 구매하는 경우도 있지만 보통은 Amazon에서 둘러보다가 괜찮은 것이 있으면 구매하는편이다. 매번 찾아보기 귀찮기도 해서 하루에 한번씩 확인하여, 원하는 아티스트의 LP가 올라오면 DB에 기록하고 알림을 날리기로 했다.",
+      "date": "2021.10.04"
+    },
+    {
+      "idx": 1,
+      "category": "Lifestyle",
+      "title": "CSS Class 와 Bootstrap이 제공해주는 디자인 탬플릿의 관계",
+      "image": "https://media.vlpt.us/images/d3fau1t/post/76e1b5d5-8515-4934-b1f9-202d1a351cf4/image.png?w=768",
+      "desc": "HTML(HyperText Markup Language)문서를 볼 때 눈대중으로 보고 넘겼던 style태그와 별생각 없이 사용하던 CSS 템플릿에 관련된 내용을 집고 넘어가면서 글을 작성하게되었다.보통 HTML 문서에서 작성된 태그영역",
+      "date": "2021.09.30"
+    },
+    {
+      "idx": 2,
+      "category": "Lifestyle",
+      "title": "Next.js + Typescript + Tailwind CSS 작업 환경 구성",
+      "image": "https://media.vlpt.us/images/d3fau1t/post/8a947b76-4c35-460b-afc4-9065120982f1/image.png?w=768",
+      "desc": "토이프로젝트 하려고 웹프론트 프로젝트 디렉터리 구성하다가 나중에 기억안날 것 같아서 적어둔 글이다.",
+      "date": "2020.09.09"
+    }
+  ]
+}
