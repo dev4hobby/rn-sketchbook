@@ -4,6 +4,7 @@
       "category": "Lifestyle",
       "title": "Amazon Japan에서 Vinyl 상품정보를 Python으로 크롤링해서 DB에 넣어볼까?",
       "image": "https://media.vlpt.us/images/d3fau1t/post/1a594c00-7621-48fb-b77d-b378e4f6a645/image.png?w=768",
+      "link": "https://velog.io/@d3fau1t/%EB%82%B4%EA%B0%80-%EC%9B%90%ED%95%98%EB%8A%94-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-Python%EC%9C%BC%EB%A1%9C-%ED%81%AC%EB%A1%A4%EB%A7%81%ED%95%B4%EC%84%9C-DB%EC%97%90-%EB%84%A3%EC%96%B4%EB%B3%B4%EC%9E%90",
       "desc": "평소 LP를 수집하는 취미가 있는데 중고로 구매하는 경우도 있지만 보통은 Amazon에서 둘러보다가 괜찮은 것이 있으면 구매하는편이다. 매번 찾아보기 귀찮기도 해서 하루에 한번씩 확인하여, 원하는 아티스트의 LP가 올라오면 DB에 기록하고 알림을 날리기로 했다.",
       "date": "2021.10.04"
     },
@@ -12,6 +13,7 @@
       "category": "Lifestyle",
       "title": "CSS Class 와 Bootstrap이 제공해주는 디자인 탬플릿의 관계",
       "image": "https://media.vlpt.us/images/d3fau1t/post/76e1b5d5-8515-4934-b1f9-202d1a351cf4/image.png?w=768",
+      "link": "https://velog.io/@d3fau1t/CSS-Class-%EC%99%80Bootstrap%EC%9D%B4-%EC%A0%9C%EA%B3%B5%ED%95%B4%EC%A3%BC%EB%8A%94%EB%94%94%EC%9E%90%EC%9D%B8-%ED%83%AC%ED%94%8C%EB%A6%BF%EC%9D%98-%EA%B4%80%EA%B3%84",
       "desc": "HTML(HyperText Markup Language)문서를 볼 때 눈대중으로 보고 넘겼던 style태그와 별생각 없이 사용하던 CSS 템플릿에 관련된 내용을 집고 넘어가면서 글을 작성하게되었다.보통 HTML 문서에서 작성된 태그영역",
       "date": "2021.09.30"
     },
@@ -20,8 +22,45 @@
       "category": "Lifestyle",
       "title": "Next.js + Typescript + Tailwind CSS 작업 환경 구성",
       "image": "https://media.vlpt.us/images/d3fau1t/post/8a947b76-4c35-460b-afc4-9065120982f1/image.png?w=768",
+      "link": "https://velog.io/@d3fau1t/Next.js-Typescript-Tailwind-CSS-%EC%9E%91%EC%97%85-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1",
       "desc": "토이프로젝트 하려고 웹프론트 프로젝트 디렉터리 구성하다가 나중에 기억안날 것 같아서 적어둔 글이다.",
       "date": "2020.09.09"
+    },
+    {
+      "idx": 3,
+      "category": "Tech",
+      "title": "d3fu1t's GitHub",
+      "image": "https://avatars.githubusercontent.com/u/18468557?v=4",
+      "link": "https://github.com/aciddust",
+      "desc": "그리 대단하지 않지만.. GitHub 구경하고가세요..!",
+      "date": "2021.11.27"
+    },
+    {
+      "idx": 4,
+      "category": "Tech",
+      "title": "Flask App의 디렉터리는 어떤 구조로 만들어야 좋을지 고민해보았습니다.",
+      "image": "https://media.vlpt.us/images/d3fau1t/post/6739a0c6-a812-40f0-9272-304906ae79e0/flask_image.png",
+      "link": "https://velog.io/@d3fau1t/Flask-App%EC%9D%98-%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%EB%8A%94-%EC%96%B4%EB%96%A4-%EA%B5%AC%EC%A1%B0%EB%A1%9C-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%95%BC-%EC%A2%8B%EC%9D%84%EC%A7%80-%EA%B3%A0%EB%AF%BC%EC%9D%84-%EC%A2%80-%ED%95%B4%EB%B3%B4%EC%95%98%EC%8A%B5%EB%8B%88%EB%8B%A4",
+      "desc": "제대로 써보지 않았던 프레임워크를 사용해보면서 어떻게하면 더 좋은 구조를 짤 수 있을까 고민했던 내용이 작성되어있습니다..",
+      "date": "2021.10.31"
+    },
+    {
+      "idx": 5,
+      "category": "Tech",
+      "title": "Flask에서 유효성 검사를 어떻게 해야 좋을지 고민해보았습니다.",
+      "image": "https://media.vlpt.us/images/d3fau1t/post/0ca438e4-827f-4fab-937b-4bb8b0a1ebd3/flask-wtf.png",
+      "link": "https://velog.io/@d3fau1t/Flask%EC%97%90%EC%84%9C-%EC%9C%A0%ED%9A%A8%EC%84%B1%EA%B2%80%EC%82%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%98%EB%A9%B4%EC%A2%8B%EC%9D%84%EA%B9%8C",
+      "desc": "서비스코드에서 제한하고있는 범위를 벗어난 사용자 정보가 들어올 경우 의도하지 않은 상황이 벌어질 수 있고, 예외처리가 안되어있을 경우 높은 확률로 서비스 장애가 발생할 수 있다.",
+      "date": "2021.10.31"
+    },
+    {
+      "idx": 6,
+      "category": "Tech",
+      "title": "Flask에서 MongoDB를 어떻게 사용하면 좋을지 고민해보았습니다.",
+      "image": "https://media.vlpt.us/images/d3fau1t/post/73d9c980-2247-44c5-903b-8854a2c08690/flask_mongodb.png",
+      "link": "https://velog.io/@d3fau1t/Flask%EC%97%90%EC%84%9C-MongoDB%EB%A5%BC-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%A9%B4-%EC%A2%8B%EC%9D%84%EC%A7%80-%EA%B3%A0%EB%AF%BC%ED%95%B4%EB%B3%B4%EC%95%98%EC%8A%B5%EB%8B%88%EB%8B%A4",
+      "desc": "Flask를 사용하면서 프로젝트 디렉터리를 구성하고 데이터베이스 코드는 어떻게 관리해야 코드가 좀 더 보기 좋을까 라는 의구심이 들면서 이 주제가 시작되었다.",
+      "date": "2021.11.01"
     }
   ]
 }
