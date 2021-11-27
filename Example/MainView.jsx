@@ -10,7 +10,7 @@ const MainView = (props) => {
   let todayCondition = "Cloudy";
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.title}>Honey Tip</Text>
+      <Text style={styles.title}>D3fau1t's paper</Text>
       <Text style={styles.weather}>
         오늘의 날씨: {todayWeather + "°C " + todayCondition}{" "}
       </Text>
