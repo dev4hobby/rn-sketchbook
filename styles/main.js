@@ -22,6 +22,15 @@ const styles = StyleSheet.create({
     marginLeft: 10,
     height: 60,
   },
+  middleButtonAll: {
+    width: 100,
+    height: 50,
+    padding: 15,
+    backgroundColor: "#22ddff",
+    borderColor: "deeppink",
+    borderRadius: 15,
+    margin: 7,
+  },
   middleButton01: {
     width: 100,
     height: 50,
@@ -95,7 +104,23 @@ const styles = StyleSheet.create({
     color: "#A6A6A6",
   },
   weather: {
+    marginTop: 20,
     marginLeft: 20
+  },
+  aboutButton: {
+    backgroundColor:"black",
+    width:100,
+    height:40,
+    borderRadius:10,
+    alignSelf:"flex-end",
+    marginRight:20,
+    marginTop:10
+  },
+  aboutButtonText: {
+    color: "#fff",
+    fontWeight: "700",
+    textAlign:"center",
+    marginTop:10
   }
 });
 
