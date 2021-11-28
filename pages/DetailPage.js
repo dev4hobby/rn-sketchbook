@@ -7,17 +7,13 @@ import {
   ScrollView,
   Alert,
   Share,
-  Platform,
 } from "react-native";
 import * as Linking from "expo-linking";
 import styles from "../styles/detail";
 import { db } from "../firebase/database";
 import { set, ref, onValue } from "firebase/database";
-import { androidId, getIosIdForVendorAsync }  from "expo-application";
-import {localStorage} from "expo-secure-store"
 
-export default function DetailPage({ navigation, route }) {
-  const isIOS = Platform.OS === "ios";
+export default function DetailPage({ navigation, route, userId }) {
   const [tip, setTip] = useState({});
 
   useEffect(() => {
@@ -37,8 +33,7 @@ export default function DetailPage({ navigation, route }) {
   }, []);
 
   const like = async () => {
-    const user_id = isIOS ? await getIosIdForVendorAsync() : androidId ?? 'web';
-    set(ref(db, `like/${user_id}/${tip.idx}`),
+    await set(ref(db, `like/${userId}/${tip.idx}`),
     tip,
     (error) => {
       console.log(error)
