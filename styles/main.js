@@ -121,7 +121,9 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     textAlign:"center",
     marginTop:10
+  },
+  banner: {
+
   }
 });
-
 export default styles;

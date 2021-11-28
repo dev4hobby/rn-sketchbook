@@ -31,6 +31,23 @@ const styles = StyleSheet.create({
   cardDate: {
     fontSize:10,
     color:"#A6A6A6",
+  },
+  buttonGroup: {
+      flexDirection:"row",
+  },
+  button:{
+      width:'auto',
+      minWidth:30,
+      marginRight:10,
+      marginLeft:10,
+      padding:10,
+      borderWidth:1,
+      borderColor:'deeppink',
+      borderRadius:7
+  },
+  buttonText:{
+      color:'deeppink',
+      textAlign:'center'
   }
 });
 
