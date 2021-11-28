@@ -17,13 +17,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.defau1t.blogapp",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2581025575366071~5245471756"
+      }
     },
     "android": {
+      "package": "com.d3fau1t.blogapp",
+      "versionCode": 2,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2581025575366071~1074114849"
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
