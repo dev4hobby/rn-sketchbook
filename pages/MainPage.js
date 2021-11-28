@@ -4,16 +4,17 @@ import {
   Image,
   ScrollView,
   TouchableOpacity,
-  View,
-  Alert,
+  View
 } from "react-native";
 import styles from "../styles/main";
-import data from "../data.json";
 import Loading from "../Components/Loading";
 import Card from "../Components/Card";
 import { StatusBar } from "expo-status-bar";
 import * as Location from "expo-location";
 import axios from "axios";
+import { db } from "../firebase/database"
+import { ref, onValue } from "firebase/database"
+import { firestore } from '../firebase/storage'
 
 export default function MainPage({ navigation, route }) {
   const [state, setState] = useState([]);
@@ -28,10 +29,14 @@ export default function MainPage({ navigation, route }) {
       navigation.setOptions({
         title: `D3fau1t's paper`,
       });
-      setState(data.tip);
-      setCategoryState(data.tip);
-      getLocation();
-      setReady(false);
+      const tipRef = ref(db, 'tip/');
+      onValue(tipRef, (snapshot) => { 
+        const tip = snapshot.val()
+        setState(tip)
+        setCategoryState(tip)
+        getLocation()
+        setReady(false)  
+      })
     }, 100);
   }, []);
 
@@ -42,7 +47,7 @@ export default function MainPage({ navigation, route }) {
     const longitude = location.coords.longitude;
     console.log(latitude, longitude);
     const API_KEY = `f15d5ae384d657a9cd22b1c24d8420fb`;
-    const result = await axios
+    await axios
       .get(
         `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`
       )
@@ -52,7 +57,7 @@ export default function MainPage({ navigation, route }) {
           condition: res.data.weather[0].main,
         });
       })
-      .catch((err) => {});
+      .catch((err) => {console.log(err)});
   };
 
   const categoryFilter = (c) => {
